@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2b2b2b;
+}
+.head {
+    height: 80px; /* Mengurangi tinggi background */
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px; /* Menyesuaikan padding top agar tetap terlihat baik */
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px; /* Mengurangi ukuran font */
+  }
+  
+  .logo span {
+    color: aquamarine;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: aqua;
+    transition: 0.5s;
+  }
+  
+  nav ul li:last-child {
+    margin-left: auto; /* Pindahkan tautan Login ke kanan */
+  }
+  
+  h1{
+    color: #fff;
+  }
+.card-img-top{
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.btn-primary{
+    border-radius: 50px;
+    width: 120px;
+    transition: .6s;
+}
+.btn-primary:hover{
+    border: solid blue;
+    background-color: transparent;
+    color: blue;
+}
+h3,h5{
+ color: #191919;
+}
+footer{
+    background: #191919;
+    padding-top: 5px;
+    color: #c0c0c0;
+  }
+  .footer-content{
+    width: 33.3%;
+  }
+  .low-container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+  }
+  footer h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  p a{
+    text-decoration: none;
+    color: #c0c0c0;
+    transition: 0.5s;
+    text-align: center;
+  }
+  p a:hover{
+    color: white;
+  }
+  .footer-content p{
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+  .footer-content ul{
+    text-align: center;
+  }
+  .footer-content h3{
+    color: #c0c0c0;
+  }
+  .list{
+    padding: 5px;
+  }
+  .list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 5px;
+    position: relative;
+    
+  }
+  .list li a{
+    color: #c0c0c0;
+    transition:  .5s;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition-duration: .5s;
+  }
+  .list li:hover::before{
+    width: 70px;
+  }
+  .list li a:hover{
+    color: white;
+  }
+  .social{
+    text-align: center;
+    padding: 0;
+  }
+  .social li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+  }
+  .social i{
+    color: #c0c0c0;
+    font-size: large;
+  }
+  .social i a{
+    text-decoration: none;
+  }
+  .social i a:hover{
+    color: white;
+  }
+  .social i:hover{
+    color: white;
+  }
+  
+  footer .bottom-bar{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px;
+    background: black;
+  }
+  
